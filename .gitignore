@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training checkpoints (large, not needed for sharing — only final adapter is)
+results/
+checkpoint-*/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets — never commit tokens
+.env
+*.token
